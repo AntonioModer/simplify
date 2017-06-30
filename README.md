@@ -2,7 +2,7 @@
 Simple Event-driven GUI toolkit for Löve2D.
 
 ## Install
-Simply download the folder, that i have provided and drop it into your main game directory.
+Simply download the folder, that i have provided and drop it into your root game directory.
 
 ## How to use
 
@@ -42,7 +42,7 @@ function love.load()
     end)
 
     testbutton.MouseEnter:connect(function(x,y)
-        print("Mouse Enteres at X: "..x.." Y:"..y)
+        print("Mouse Entered at X: "..x.." Y:"..y)
     end)
 
 end
