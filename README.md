@@ -6,6 +6,7 @@ Simply downlaod the folder i have provided and drop it into your main game direc
 
 ## How to use
 
+```
 function love.load()
   simplify = require("simplify")
 end
@@ -13,3 +14,5 @@ end
 function love.draw
   simplify.engine.draw()
 end
+
+```
