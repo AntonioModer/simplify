@@ -6,7 +6,7 @@ Simply downlaod the folder i have provided and drop it into your main game direc
 
 ## How to use
 
-```
+```lua
 function love.load()
   simplify = require("simplify")
 end
