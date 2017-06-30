@@ -19,7 +19,7 @@ end
 
 ### Example
 
-```
+```lua
 
 function love.load()
     simplify = require('simplify')
