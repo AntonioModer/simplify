@@ -65,14 +65,6 @@ function engine.mousepressed(x,y,button,isTOuch)
 end
 
 
-function love.mousepressed(x,y,button,isTouch)
-    local leftButton = 1
-    local rightButton = 2
-    local mouseWheel = 3
-    engine.mousepressed(x, y, button, isTOuch)
-end
-
-
 function engine.mousemoved(x,y)
     for i,element in pairs(engine.Elements)do
         --Checking if mouse Inside UI Element
@@ -90,20 +82,6 @@ function engine.mousemoved(x,y)
     end
 end
 
-
---function love.update(dt)
-    --engine.Update(dt)
---end
-
-
-function love.mousemoved(x, y)
-    engine.mousemoved(x, y)
-end
-
-
-function love.keypressed(key, scancode, isRepeat)
-    engine.keypressed(key, scancode, isRepeat)
-end
 
 
 local library = {}
