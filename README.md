@@ -11,7 +11,7 @@ function love.load()
   simplify = require("simplify")
 end
 
-function love.draw
+function love.draw()
   simplify.engine.draw()
 end
 
