@@ -15,6 +15,15 @@ function love.draw
   simplify.engine.draw()
 end
 
+function love.mousemoved(x, y)
+    engine.mousemoved(x, y)
+end
+
+
+function love.keypressed(key, scancode, isRepeat)
+    engine.keypressed(key, scancode, isRepeat)
+end
+
 ```
 
 ### Example
