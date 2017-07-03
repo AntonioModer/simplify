@@ -15,6 +15,13 @@ function Frame:initialize(width, height)
 
     self["MouseButton1Down"] = util.CreateSignal()
     self["MouseButton1Up"] = util.CreateSignal()
+    
+    self["MouseButton2Up"] = util.CreateSignal()
+    self["MouseButton2Down"] = util.CreateSignal()
+    
+    self["MouseButton3Up"] = util.CreateSignal()
+    self["MouseButton3Down"] = util.CreateSignal()
+    
     self["MouseEnter"] = util.CreateSignal()
     self["MouseLeave"] = util.CreateSignal()
 
