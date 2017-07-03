@@ -27,8 +27,8 @@ function love.load()
         print("Mouse Clicked at X: "..x.." Y:"..y)
     end)
 
-    testbutton.MouseEnter:connect(function(x,y)
-        print("Mouse Enteres at X: "..x.." Y:"..y)
+    testbutton.MouseEnter:connect(function(x,y)--return where mouse entered on button
+        print("Mouse Entered at X: "..x.." Y:"..y)
     end)
 
 end
