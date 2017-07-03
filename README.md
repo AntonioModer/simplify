@@ -1,7 +1,7 @@
 # simplify
 Simple Event-driven GUI toolkit for Löve2D.
 
-## Documentation 
+## Documentation and Installation
 (https://github.com/mastermarkus/simplify/wiki)
 
 
