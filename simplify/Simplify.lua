@@ -58,9 +58,33 @@ function engine.mousepressed(x,y,button,isTOuch)
         if util.InBounds(x,y,element) then
             --print('mouse clicked gui object')
             local mousePosOnElementX, mousePosOnElementY = util.GetMousePositionOnUI(x,y, element)
-            element.MouseButton1Down:Fire(mousePosOnElementX, mousePosOnElementY)
+            if button == 1 then
+                element.MouseButton1Down:Fire(mousePosOnElementX, mousePosOnElementY)
+                elseif button == 2 then
+                element.MouseButton2Down:Fire(mousePosOnElementX, mousePosOnElementY)
+                elseif button == 3 then
+                element.MouseButton3Down:Fire(mousePosOnElementX, mousePosOnElementY)
+            end
         end
 
+    end
+end
+
+
+function engine.mousereleased( x, y, button, isTouch )
+    for i,element in pairs(engine.Elements)do
+        --Checking if mouse Inside UI Element
+        if util.InBounds(x,y,element) then
+            local mousePosOnElementX, mousePosOnElementY = util.GetMousePositionOnUI(x,y, element)
+            if button == 1  then
+                element.MouseButton1Up:Fire(mousePosOnElementX, mousePosOnElementY)
+                elseif button == 2 then
+                element.MouseButton2Up:Fire(mousePosOnElementX, mousePosOnElementY)
+                elseif button == 3 then
+                element.MouseButton3Up:Fire(mousePosOnElementX, mousePosOnElementY)
+            end
+            
+        end
     end
 end
 
