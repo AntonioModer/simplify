@@ -30,12 +30,5 @@ end
 
 ```
 
-### Example's and what can this library do?
-
-Supported GUI elements:Frame, TextButton, ImageButton
-
-Also, every GUI element has "ZIndex" property, the default value is 1, you can change it with :SetZIndex(numberValue) method.
-
-
-## Documentation
+## Documentation 
 (https://github.com/mastermarkus/simplify/wiki)
