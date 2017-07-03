@@ -1,5 +1,5 @@
 # Simplify
-Simple Event-driven GUI toolkit for Löve2D.
+**Simplify** is a simple Event-driven GUI library for Löve2D. With this library you can simply create GUI elements and listen for mouse and keyboard input. This library also support's ZIndex drawing order system, where you can specify the display order of GUI elements.
 
 ## Documentation and Installation
 (https://github.com/mastermarkus/simplify/wiki)
