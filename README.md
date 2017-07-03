@@ -7,7 +7,7 @@ Simple Event-driven GUI toolkit for Löve2D.
 
 ## Quick example:
 
-```
+```lua
 function love.load()
 
     local testbutton = simplify:TextButton(200,100)--size paramters
