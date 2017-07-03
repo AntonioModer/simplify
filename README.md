@@ -1,4 +1,4 @@
-# simplify
+# Simplify
 Simple Event-driven GUI toolkit for Löve2D.
 
 ## Documentation and Installation
